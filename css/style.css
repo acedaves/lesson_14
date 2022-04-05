@@ -1,0 +1,227 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.wrapper {
+	min-height: 100%;
+}
+
+/* ------------------------------ */
+
+.header {
+	padding-bottom: 80px;
+	background-color: #F5F5F5;
+}
+
+.our-impact {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #29C3BE;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.our-impact__container {
+	max-width: 1020px;
+}
+
+.our-impact__title {
+	position: relative;
+	z-index: 10;
+	color: white;
+}
+
+.our-impact__main {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+	padding-top: 112px;
+}
+
+.our-impact__main::before{
+	content: "";
+	padding-left: 35px;
+	background: url("../img/our_impact/chevron.svg") -7px no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.our-impact__main::after {
+	content: "";
+	position: absolute;
+	z-index: 9;
+	top: -80px;
+	left: 530px;
+	background: url("../img/our_impact/image_dog.jpg") 0 0 no-repeat;
+	width: 49%;
+	height: 130%;
+	border-radius: 40px;
+}
+
+.our-impact__sub {
+	max-width: 411px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	margin-bottom: 72px;
+}
+
+.our-impact__sub::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 420px;
+	z-index: 8;
+	background: url("../img/our_impact/blob.png") 0 0 no-repeat;
+	width: 100%;
+	height: 150%;
+}
+
+.our-impact__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 110px;
+	margin-bottom: 212px;
+	max-width: 1020px;
+}
+
+.card__number{
+	color: white;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.card__text {
+	color: #5D62B5;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+
+.card__puppy{	
+	flex: content;
+	background: url("../img/our_impact/dog_duckling.svg") 0 0 / 65px 65px no-repeat;
+	width: 100%;
+	height: 100%;
+	padding-left: 75px;
+}
+
+.card__dogs{
+	flex: content;
+	background: url("../img/our_impact/dog_house.svg") 0 0 / 65px 65px no-repeat;
+	width: 100%;
+	height: 100%;
+	padding-left: 75px;
+}
+
+.card__pups {
+	flex: content;
+	background: url("../img/our_impact/dog_leash.svg") 0 0 / 65px 65px no-repeat;
+	width: 100%;
+	height: 100%;
+	padding-left: 75px;
+}
+
+.card__meals {
+	flex: content;
+	background: url("../img/our_impact/dog_food_bowl.svg") 0 0 / 65px 65px no-repeat;
+	width: 100%;
+	height: 100%;
+	padding-left: 75px;
+}
+
+.our-promise {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+	background-color: #F5F5F5;
+	display: flex;
+	justify-content: center;
+}
+
+.our-promise__container{
+	max-width: 1020px;
+}
+.our-promise__title {
+	display: flex;
+	flex-direction: column;
+	max-width: 583px;
+	padding-top: 100px;
+}
+.our-promise__main {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	margin-bottom: 33px;
+}
+
+.our-promise__main::before {
+	content: "";
+	padding-left: 35px;
+	background: url("../img/our_promise/chevron_purple.svg") -7px no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.our-promise__sub {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	margin-bottom: 68px;
+}
+
+.our-promise__items{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 24px;
+	margin-bottom: 122px;
+}
+
+.item__love-care {
+	flex: 0 1 324px;
+	background: url("../img/our_promise/dog_love.svg") 0 0 no-repeat;
+	padding-left: 80px;
+}
+
+.item__veterinarian {
+	flex: 0 1 324px;
+	background: url("../img/our_promise/dog_vet.svg") 0 0 no-repeat;
+	padding-left: 80px;
+}
+
+.item__live-stream {
+	flex: 0 1 324px;
+	background: url("../img/our_promise/dog_stream.svg") 0 0 no-repeat;
+	padding-left: 80px;
+}
+
+.item__name {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin-bottom: 20px;
+}
+.item__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
